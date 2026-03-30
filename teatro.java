@@ -30,7 +30,8 @@ public class teatro {
     // salas
     static Sala[] salas = {
         new Sala("Sala 1", "Harry Potter e o Prisioneiro de Azkaban", 100),
-        new Sala("Sala 2", "Harry Potter e a Pedra Filosofal", 80)
+        new Sala("Sala 2", "Harry Potter e a Pedra Filosofal", 80),
+        new Sala("Sala 3", "Percy Jackson e o Ladrão de Raios", 70)
     };
 
     static int salaAtual = 0;
