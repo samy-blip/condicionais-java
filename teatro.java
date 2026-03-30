@@ -46,7 +46,7 @@ public class teatro {
         int opcao;
 
         do {
-            System.out.println("\n===== TEATRO DEVISATE =====");
+            System.out.println("\nTEATRO DEVISATE");
             System.out.println("Sala atual: " + salas[salaAtual].nome);
             System.out.println("1 - Ver mapa da sala");
             System.out.println("2 - Reservar cadeira");
@@ -70,7 +70,7 @@ public class teatro {
         } while (opcao != 0);
     }
 
-    // escolher sala
+    // escolha de sala
     static void escolherSala() {
         System.out.println("\nEscolha a sala:");
 
